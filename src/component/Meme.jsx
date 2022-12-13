@@ -1,9 +1,9 @@
 import React from "react";
+import memesData from "../memesData.js"
 
 export const Meme = () => {
   return (
     <div className="meme__container">
-      <form action="">
         <input
           className="meme__input1"
           type="text"
@@ -14,7 +14,6 @@ export const Meme = () => {
         <button className="meme__button" type="submit">
           Get a new meme image
         </button>
-      </form>
     </div>
   );
 };

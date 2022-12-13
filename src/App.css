@@ -8,7 +8,7 @@ body {
 }
 
 /* HEADER CSS */
-.meme__header{
+.meme__header {
   display: flex;
   height: 65px;
   background-color: purple;
@@ -18,22 +18,52 @@ body {
   align-items: center;
 }
 
-.meme__header-title{
- font-size: 20px;
- margin-right: auto;
+.meme__header-title {
+  font-size: 20px;
+  margin-right: auto;
 }
 
-.meme__header-subtitle{
- font-size: 15px;
- font-weight: 500;
+.meme__header-subtitle {
+  font-size: 15px;
+  font-weight: 500;
 }
 
 /* END HEADER CSS */
 
+/* Meme BODY CSS */
 
+.meme__container {
+  margin: 44px 44px;
+}
 
-/* MAIN BODY CSS */
+.meme__input1 {
+  justify-content: center;
+  width: 48%;
+  margin-right: 15px;
+  border-radius: 6px;
+  height: 40px;
+}
 
+.meme__input2 {
+  justify-content: center;
+  width: 48%;
+  border-radius: 6px;
+  height: 40px;
+}
 
+.meme_buttonContainer {
+  display: flex;
+  justify-content: center;
+}
 
-/* END MAIN BODY CSS */
+.meme__button {
+  margin-top: 15px;
+  width: 100%;
+  height: 40px;
+  color: white;
+  background-color: purple;
+  border-radius: 6px;
+  font-size: large;
+}
+
+/* END Meme BODY CSS */

@@ -16,11 +16,17 @@ body {
   padding: 20px;
   width: 100vw;
   align-items: center;
+  border: 1px solid purple;
+    border-radius: 0px;
+    box-shadow: 5px 5px 5px 1px rgba(120,120,120,0.44);
+    -webkit-box-shadow: 5px 5px 5px 1px rgba(120,120,120,0.44);
+    -moz-box-shadow: 5px 5px 5px 1px rgba(120,120,120,0.44);
 }
 
 .meme__header-title {
   font-size: 20px;
   margin-right: auto;
+  
 }
 
 .meme__header-subtitle {
@@ -68,4 +74,7 @@ body {
   font-size: large;
 }
 
+.meme__image{
+  max-width: 100%;
+}
 /* END Meme BODY CSS */

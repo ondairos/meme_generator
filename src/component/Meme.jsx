@@ -30,7 +30,11 @@ export const Meme = () => {
       <button className="meme__button" onClick={handleMeme}>
         Get a new meme image
       </button>
-      <img src={meme.randomImage} alt="" className="meme__image" />
+      <div className="meme">
+        <img src={meme.randomImage} alt="" className="meme__image" />
+        <h2 className="meme--text top">One does not simply</h2>
+        <h2 className="meme--text bottom">Walk into Mordor</h2>
+      </div>
     </div>
   );
 };

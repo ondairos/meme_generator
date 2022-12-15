@@ -1,6 +1,5 @@
 ## Meme Generator Created with React JS
 
-Used API:Image Flip
 `Deployed at`: 
 
 ## commands:
@@ -20,12 +19,13 @@ This project was bootstrapped with [Vite](https://github.com/vitejs/vite).
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
+- CSS Custom Properties
 - React.JS
 - Flexbox
 - CSS Grid
-- Event listeners
+- ImgFlip API
+- Event Listeners
 - State
-- Conditional rendering
+- Conditional Rendering
 - Forms
-- Side effects
+- Side Effects

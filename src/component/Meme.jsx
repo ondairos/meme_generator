@@ -42,7 +42,7 @@ export const Meme = () => {
       <input
         className="meme__input1"
         type="text"
-        placeholder="One does not simply..."
+        placeholder="Insert top line"
         name="topText"
         onChange={handleChange}
         value={meme.topText}
@@ -50,7 +50,7 @@ export const Meme = () => {
       <input
         className="meme__input2"
         type="text"
-        placeholder="walk into mordor"
+        placeholder="Insert bottom line"
         name="bottomText"
         onChange={handleChange}
         value={meme.bottomText}

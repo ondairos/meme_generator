@@ -8,7 +8,8 @@ body {
 }
 
 /* HEADER CSS */
-.meme__header {
+.meme__header,
+.meme__footer {
   display: flex;
   height: 65px;
   background-color: purple;
@@ -17,16 +18,15 @@ body {
   width: 100vw;
   align-items: center;
   border: 1px solid purple;
-    border-radius: 0px;
-    box-shadow: 5px 5px 5px 1px rgba(120,120,120,0.44);
-    -webkit-box-shadow: 5px 5px 5px 1px rgba(120,120,120,0.44);
-    -moz-box-shadow: 5px 5px 5px 1px rgba(120,120,120,0.44);
+  border-radius: 0px;
+  box-shadow: 5px 5px 5px 1px rgba(120, 120, 120, 0.44);
+  -webkit-box-shadow: 5px 5px 5px 1px rgba(120, 120, 120, 0.44);
+  -moz-box-shadow: 5px 5px 5px 1px rgba(120, 120, 120, 0.44);
 }
 
 .meme__header-title {
   font-size: 20px;
   margin-right: auto;
-  
 }
 
 .meme__header-subtitle {
@@ -64,7 +64,7 @@ body {
 
 .meme__button {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  margin-top: 15px ;
+  margin-top: 15px;
   width: 100%;
   height: 40px;
   color: white;
@@ -78,10 +78,10 @@ body {
 .meme {
   position: relative;
   width: 75%;
-  margin: auto;
+  margin: 20px auto auto auto;
 }
 
-.meme__image{
+.meme__image {
   width: 100%;
   max-width: 100%;
   border-radius: 3px;
@@ -97,20 +97,13 @@ body {
   margin: 15px 0;
   padding: 0 5px;
   font-family: impact, sans-serif;
-  font-size: 1.5em;
+  font-size: 2em;
   text-transform: uppercase;
   color: white;
   letter-spacing: 1px;
-  text-shadow:
-      2px 2px 0 #000,
-      -2px -2px 0 #000,
-      2px -2px 0 #000,
-      -2px 2px 0 #000,
-      0 2px 0 #000,
-      2px 0 0 #000,
-      0 -2px 0 #000,
-      -2px 0 0 #000,
-      2px 2px 5px #000;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+    2px 2px 5px #000;
 }
 
 .bottom {
@@ -121,3 +114,45 @@ body {
   top: 0;
 }
 /* END Meme BODY CSS */
+
+/* Footer CSS */
+.meme__footer {
+  margin: auto 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.meme__footer-title {
+  margin: auto;
+  font-weight:200;
+  font-size: 1rem;
+}
+
+.meme__footer-anchor{
+  text-decoration: none;
+  color: white;
+}
+
+.meme__footer-anchor:hover {
+  font-weight: 700;
+}
+
+/* END Footer CSS */
+
+
+@media (max-width: 400px) {
+  .meme__input1,
+  .meme__input2 {
+    width: 100%;
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 1800px) {
+  .meme__input1,
+  .meme__input2 {
+    width: 100%;
+    
+  }
+}

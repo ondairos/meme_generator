@@ -5,6 +5,7 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
+  position: relative;
 }
 
 /* HEADER CSS */
@@ -78,7 +79,7 @@ body {
 .meme {
   position: relative;
   width: 100%;
-  margin: 20px auto auto auto;
+  margin: 20px auto 50px auto;
 }
 
 .meme__image {
@@ -117,7 +118,8 @@ body {
 
 /* Footer CSS */
 .meme__footer {
-  margin: auto 0;
+  position: absolute;
+  margin: -50px 0;
   bottom: 0;
   width: 100%;
 }
@@ -154,8 +156,9 @@ body {
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 800px)  {
   .meme__footer {
     position: absolute;
   }
 }
+

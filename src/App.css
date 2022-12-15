@@ -80,13 +80,17 @@ body {
   position: relative;
   width: 100%;
   margin: 20px auto 50px auto;
+  text-align: center;
 }
 
 .meme__image {
-  width: 100%;
+  margin: 0 10px 10px;
+  width: 500px;
+  height: 500px;
   max-width: 100%;
   border-radius: 3px;
 }
+
 
 /* POSITION THE MEME TEXT CSS */
 .meme--text {
@@ -156,9 +160,8 @@ body {
   }
 }
 
-@media (max-width: 800px)  {
+@media (max-width: 800px) {
   .meme__footer {
     position: absolute;
   }
 }
-

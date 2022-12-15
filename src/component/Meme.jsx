@@ -5,7 +5,7 @@ export const Meme = () => {
     // create object
     topText: "",
     bottomText: "",
-    randomImage: "http://i.imgflip.com/1bij.jpg",
+    randomImage: "https://i.imgflip.com/3l60ph.jpg",
   });
 
   // state with all the memes

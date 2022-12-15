@@ -118,18 +118,17 @@ body {
 /* Footer CSS */
 .meme__footer {
   margin: auto 0;
-  position: fixed;
   bottom: 0;
   width: 100%;
 }
 
 .meme__footer-title {
   margin: auto;
-  font-weight:200;
+  font-weight: 200;
   font-size: 1rem;
 }
 
-.meme__footer-anchor{
+.meme__footer-anchor {
   text-decoration: none;
   color: white;
 }
@@ -139,7 +138,6 @@ body {
 }
 
 /* END Footer CSS */
-
 
 @media (max-width: 400px) {
   .meme__input1,
@@ -153,6 +151,11 @@ body {
   .meme__input1,
   .meme__input2 {
     width: 100%;
-    
+  }
+}
+
+@media (max-width: 800px) {
+  .meme__footer {
+    position: absolute;
   }
 }

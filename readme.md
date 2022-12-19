@@ -7,7 +7,7 @@ To build: ``npm install``
 to run: ``npm run dev``
 
 
-### The challenge
+### Project
 
 - Write top and bottom texts on memes via ReactJS form
 - Get a random meme image calling APIs
